@@ -95,7 +95,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'id18621871_kacper',
-        'HOST': 'databases.000webhost.com/',
+        'HOST': '99.000webhost.io',
         'PORT': '3306',
         'USER': 'id18621871_kacper1',
         'PASSWORD': '3D*Oe%*0lsTk05%Q',
