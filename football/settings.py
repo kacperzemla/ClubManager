@@ -94,11 +94,11 @@ WSGI_APPLICATION = 'football.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'JycMgjto7M',
-        'HOST': 'remotemysql.com',
+        'NAME': 'kacperze',
+        'HOST': 'mysql.agh.edu.pl',
         'PORT': '3306',
-        'USER': 'JycMgjto7M',
-        'PASSWORD': 'SrnheW2X0S',
+        'USER': 'kacperze',
+        'PASSWORD': 'F1p4qsWWVyBYwqjw',
     }
 }
 
