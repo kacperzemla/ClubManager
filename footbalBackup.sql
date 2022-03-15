@@ -39,11 +39,11 @@ ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS `players` (
   `pid` INT PRIMARY KEY auto_increment,
-  `nid` INT NOT NULL,
+  `nid` INT,
   `cid` INT NULL,
   `name` VARCHAR(45) NULL,
   `surname` VARCHAR(45) NULL,
-  `position` VARCHAR(45) NOT NULL,
+  `position` VARCHAR(45),
   `age` INT NULL,
   `heigth` FLOAT NULL,
   `foot` VARCHAR(10) NULL,
