@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import useFetch from './useFetch';
 
 const AllClubs = () => {
-    const {data: clubs, isPending, error} = useFetch('http://127.0.0.1:8000/api/clubs-list/')
+    const {data: clubs, isPending, error} = useFetch('https://club-managerk.herokuapp.com/api/clubs-list/')
 
     return ( <div className="clubs">
         <h1 className="clubs-title">Choose Your Club</h1>
