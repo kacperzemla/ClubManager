@@ -8,7 +8,7 @@ const ClubInfo = () => {
     const { id } = useParams();
     const { data: club, isPending, error } = useFetch('https://club-managerk.herokuapp.com/api/clubs-list/' + id + '/');
     const { data: trophies, isPendingT, errorT } = useFetch('https://club-managerk.herokuapp.com/api/club-trophies/' + id + '/');
-
+    
     return (
         <div className="club">
             {error && <p>{error}</p>}
@@ -17,7 +17,7 @@ const ClubInfo = () => {
             {club &&
                 <div className="club-wrapper">
 
-                    <div className="club-info">
+                    <div className="club-info xdd">
                         <div className="club-info-text">
                             <ul className="info-list">
                                 <li className="info-list-item club-name">{club.club}</li>
