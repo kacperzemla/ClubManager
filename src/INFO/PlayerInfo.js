@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 
 const PlayerInfo = () => {
     const {id} = useParams();
-    const {data: player, isPending, error} = useFetch('http://127.0.0.1:8000/api/player-info/' + id +'/');
+    const {data: player, isPending, error} = useFetch('https://club-managerk.herokuapp.com/api/player-info/' + id +'/');
 
     return (
         <div className="person-info">

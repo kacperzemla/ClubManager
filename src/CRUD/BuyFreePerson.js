@@ -10,7 +10,7 @@ const BuyFreePerson = ({person}) => {
     const handleSubmit = (e) =>{
         e.preventDefault();
 
-        fetch(`http://127.0.0.1:8000/api/insert-${person}/${idClub}/${id}/`,{
+        fetch(`https://club-managerk.herokuapp.com/api/insert-${person}/${idClub}/${id}/`,{
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({salary: salary})
