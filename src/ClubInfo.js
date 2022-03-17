@@ -6,8 +6,8 @@ import prize from './prize.svg';
 
 const ClubInfo = () => {
     const { id } = useParams();
-    const { data: club, isPending, error } = useFetch('http://127.0.0.1:8000/api/clubs-list/' + id + '/');
-    const { data: trophies, isPendingT, errorT } = useFetch('http://127.0.0.1:8000/api/club-trophies/' + id + '/');
+    const { data: club, isPending, error } = useFetch('https://club-managerk.herokuapp.com/api/clubs-list/' + id + '/');
+    const { data: trophies, isPendingT, errorT } = useFetch('https://club-managerk.herokuapp.com/api/club-trophies/' + id + '/');
 
     return (
         <div className="club">

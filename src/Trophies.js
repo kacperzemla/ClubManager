@@ -5,8 +5,8 @@ import { useState } from "react";
 
 
 const Trophies = () => {
-    const { data: trophies, isPending, error } = useFetch('http://127.0.0.1:8000/api/all-nation-trophies/');
-    const { data: trophiesC, isPendingC, errorC } = useFetch('http://127.0.0.1:8000/api/all-club-trophies/');
+    const { data: trophies, isPending, error } = useFetch('https://club-managerk.herokuapp.com/api/all-nation-trophies/');
+    const { data: trophiesC, isPendingC, errorC } = useFetch('https://club-managerk.herokuapp.com/api/all-club-trophies/');
     const [visible, setVisible] = useState(5);
 
     const loadMore = () => {

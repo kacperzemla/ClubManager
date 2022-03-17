@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 
 const Contracts = () => {
     const { id } = useParams();
-    const { data: trainerContract, isPending, error } = useFetch('http://127.0.0.1:8000/api/trainer-contract/' + id + '/')
-    const { data: playerContracts, isPendingPContracts, errorPContracts } = useFetch('http://127.0.0.1:8000/api/players-contracts/' + id + '/');
+    const { data: trainerContract, isPending, error } = useFetch('https://club-managerk.herokuapp.com/api/trainer-contract/' + id + '/')
+    const { data: playerContracts, isPendingPContracts, errorPContracts } = useFetch('https://club-managerk.herokuapp.com/api/players-contracts/' + id + '/');
 
     return (<div className="contracts">
         <div className="contracts-wrapper">

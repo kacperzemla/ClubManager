@@ -5,8 +5,8 @@ import { useState } from "react";
 
 const TrainersTransfers = () => {
     const { id } = useParams();
-    const { data: freeTrainers, isPending: isPendingFree, error: errorFree } = useFetch('http://127.0.0.1:8000/api/free-trainers');
-    const { data: trainersToBuy, isPending, error } = useFetch('http://127.0.0.1:8000/api/trainers-to-buy/' + id + '/');
+    const { data: freeTrainers, isPending: isPendingFree, error: errorFree } = useFetch('https://club-managerk.herokuapp.com/api/free-trainers');
+    const { data: trainersToBuy, isPending, error } = useFetch('https://club-managerk.herokuapp.com/api/trainers-to-buy/' + id + '/');
     const [visible, setVisible] = useState(5);
     const [visibleSec, setVisibleSec] = useState(5)
     const [searchTerm, setSearchTerm] = useState('')

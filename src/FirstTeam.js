@@ -8,8 +8,8 @@ import { useEffect, useState } from "react";
 const FirstTeam = () => {
     const {id} = useParams();
     const history = useHistory();
-    let {data: players, isPending: isPendingPlayer, error: errorPlayers} = useFetch('http://127.0.0.1:8000/api/players-in-club/'+id+'/')
-    const {data: trainer, isPending: isPendingTrainer, error: errorTrainers} = useFetch('http://127.0.0.1:8000/api/trainer-in-club/'+id+'/')
+    let {data: players, isPending: isPendingPlayer, error: errorPlayers} = useFetch('https://club-managerk.herokuapp.com/api/players-in-club/'+id+'/')
+    const {data: trainer, isPending: isPendingTrainer, error: errorTrainers} = useFetch('https://club-managerk.herokuapp.com/api/trainer-in-club/'+id+'/')
     const [isDeleted, setDelete ] = useState(false);
 
 
