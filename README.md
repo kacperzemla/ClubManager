@@ -5,22 +5,22 @@ Unfortunately some funcionalities doesn't work on live, because free database ho
 Live view -> https://club-managerk.herokuapp.com/
 
 **Main page**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/main.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/main.jpg)
 
 **Choosing club**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/clubs.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/clubs.jpg)
 
 **Club info**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/clubInfo.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/clubInfo.jpg)
 
 **First team**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/firstteam.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/firstteam.jpg)
 
 **Player info**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/player.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/player.jpg)
 
 **Transfers**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/playerTransfers.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/playerTransfers.jpg)
 
 **Trophies**
-[!alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/trophies.jpg)
+![alt text](https://github.com/kacperzemla/ClubManager/blob/master/images/trophies.jpg)
